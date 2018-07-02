@@ -1,0 +1,101 @@
+html, body{
+    margin:0;
+    padding:0;
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+}
+
+.header{
+
+    background: url(http://www.molcaworld.com/wp-content/uploads/2016/11/panoramica-sevilla-anillos.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color:yellow;
+    
+
+}
+
+@media (min-width:850px) {
+    .header h1 {
+      font-size: 80px;
+      padding-top: 320px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .header p {
+      
+      text-transform: uppercase;
+      margin-top: 0;
+      font-size: 50px;
+      color: blue; 
+      opacity: 0.2;   
+
+  }
+
+  .nav{
+      background: rgb(163, 7, 7);
+      height:39px;
+  }
+  .nav ul{
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+     
+  }
+.nav ul li{
+    display: inline-block;
+    color: white;
+    font-family: Georgia;
+    background:white;
+    padding: 8px 40px;
+    font-weight: bold;
+    border: 1px solid red;
+    text-decoration: none;
+}
+
+
+.main h2{
+    margin-top: 30px;
+}
+.main img{
+    float: left;
+    margin: 0 20px 50px 20px;
+}
+.main p {
+    margin: 30px;
+    color: yellow;
+    opacity: 0.5;
+    
+    
+}
+
+.footer{
+    background: blue;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+
+}
+.footer p{
+    text-align: center;
+}
+.elect{
+    background: url(https://image.slidesharecdn.com/mainsponsorengsevillafc2015nov2015-160205161915/95/main-sponsor-eng-sevillafc-2015nov2015-4-638.jpg?cb=1454689224) no-repeat center center;
+    margin-top: 180px;
+    
+    height: 300px;
+    background-size: cover;
+    
+}
+.elect h2{
+    margin-left: 500px;
+    margin-bottom: 50px;
+    opacity:0.5;
+    padding-top: 130px;
+
+}
